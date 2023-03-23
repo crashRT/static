@@ -10,3 +10,4 @@ services:
       - ./nginx/log:/var/log/nginx
       - ./nginx/conf.d:/etc/nginx/conf.d
       - ./src:/usr/share/nginx/html
+    restart: always
